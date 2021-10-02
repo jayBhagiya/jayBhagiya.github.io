@@ -78,6 +78,14 @@ a img {
 }
 
 #particles-js {
+    /*None selective part*/
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none;
+    user-select: none; 
+
     background: #1488CC;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
